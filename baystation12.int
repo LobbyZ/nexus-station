@@ -1,11 +1,11 @@
 // BEGIN_INTERNALS
 /*
 MAP_ICON_TYPE: 0
-WINDOW: icons\mecha\mech_fab.dmi
+WINDOW: maps\tgstation2Prese2c.dmm
 LAST_COMPILE_VERSION: 501.1217
-DIR: code code\ATMOSPHERICS\components code\ATMOSPHERICS\components\binary_devices code\ATMOSPHERICS\components\trinary_devices code\ATMOSPHERICS\components\unary code\game\objects code\game\objects\closets\secure code\unused\powerarmor icons icons\mecha maps 
-FILE: icons\mecha\mech_fab.dmi
-LAST_COMPILE_TIME: 1387925457
+DIR: code code\ATMOSPHERICS\components code\ATMOSPHERICS\components\binary_devices code\ATMOSPHERICS\components\trinary_devices code\ATMOSPHERICS\components\unary code\game\objects\closets\secure maps maps\RandomZLevels 
+FILE: maps\tgstation2Prese2c.dmm
+LAST_COMPILE_TIME: 1387987454
 AUTO_FILE_DIR: ON
 */
 // END_INTERNALS
