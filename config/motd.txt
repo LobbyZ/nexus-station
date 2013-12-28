@@ -1,5 +1,19 @@
-<h1>Welcome to Space Station 13!</h1>
+<!DOCTYPE html>
+<html>
+<style type="text/css">
+h1
+{
+color:#FF0000;
+}
+</style>
 
--<i>This server is running <a href="http://baystation12.net/">Baystation 12's</a> modification of the <a href="http://ss13.eu/">/tg/station13</a> SS13 code.</i>
+<h1>Welcome to Nexus Station</h1>
+<br/>
+
+<i>Youll find our forum at <a href="http://www.nexus-station.com/">Nexus Station</a></i>
+
 <br><br>
-<strong>Bugtracker:</strong> <a href="http://baystation12.net/forums/viewtopic.php?f=18&t=8185">http://baystation12.net/forums/viewtopic.php?f=18&t=8185</a>
+
+<strong> Please Read the rules and make sure you understand them</strong>
+
+</html>
