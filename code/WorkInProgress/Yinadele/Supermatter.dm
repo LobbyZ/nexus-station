@@ -32,7 +32,7 @@
 	var/warning_alert = "Danger! Crystal hyperstructure instability!"
 	var/emergency_point = 700
 	var/emergency_alert = "CRYSTAL DELAMINATION IMMINENT."
-	var/explosion_point = 1000
+	var/explosion_point = 2000
 
 	var/emergency_issued = 0
 
