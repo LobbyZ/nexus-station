@@ -1,9 +1,11 @@
 // BEGIN_INTERNALS
 /*
 MAP_ICON_TYPE: 0
+WINDOW: code\game\objects\weapons.dm
 LAST_COMPILE_VERSION: 501.1217
-DIR: code code\ATMOSPHERICS\components code\ATMOSPHERICS\components\binary_devices code\ATMOSPHERICS\components\trinary_devices code\ATMOSPHERICS\components\unary code\datums code\game code\game\machinery code\game\machinery\bots code\game\mecha code\game\objects code\game\objects\items code\game\objects\items\devices code\game\objects\items\devices\PDA code\game\objects\items\stacks code\game\objects\items\stacks\sheets code\game\objects\items\weapons code\game\objects\structures code\game\objects\structures\crates_lockers code\game\objects\structures\crates_lockers\closets code\modules code\modules\admin code\modules\client code\modules\economy code\modules\mining code\modules\mob code\modules\mob\living code\modules\mob\living\carbon code\modules\mob\living\carbon\human code\modules\mob\living\simple_animal code\modules\mob\living\simple_animal\hostile code\modules\recycling code\modules\research code\modules\research\xenoarchaeology code\modules\research\xenoarchaeology\artifact code\modules\telesci code\unused code\unused\spacecraft code\WorkInProgress code\WorkInProgress\Cael_Aislinn code\WorkInProgress\Cael_Aislinn\Jungle code\WorkInProgress\Sigyn code\WorkInProgress\Sigyn\Softcurity code\WorkInProgress\Tastyfish code\WorkInProgress\Yinadele maps 
-LAST_COMPILE_TIME: 1388593282
+DIR: code code\ATMOSPHERICS\components code\ATMOSPHERICS\components\binary_devices code\ATMOSPHERICS\components\trinary_devices code\ATMOSPHERICS\components\unary code\game code\game\objects code\game\objects\items code\game\objects\items\weapons code\game\objects\structures code\modules code\modules\mob code\modules\mob\living code\modules\projectiles code\modules\projectiles\guns code\modules\projectiles\guns\energy code\modules\projectiles\projectile maps 
+FILE: code\game\objects\weapons.dm
+LAST_COMPILE_TIME: 1388637101
 AUTO_FILE_DIR: ON
 */
 // END_INTERNALS

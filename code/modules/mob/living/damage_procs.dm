@@ -9,7 +9,7 @@
 	standard 0 if fail
 */
 /mob/living/proc/apply_damage(var/damage = 0,var/damagetype = BRUTE, var/def_zone = null, var/blocked = 0, var/used_weapon = null)
-	if(!damage || (blocked >= 2))	return 0
+	if(!damage || (blocked >= 1))	return 0 //changed from 2 to 1, hopefully easier to take someone down with a stun
 	switch(damagetype)
 		if(BRUTE)
 			adjustBruteLoss(damage/(blocked+1))
@@ -29,7 +29,7 @@
 
 
 /mob/living/proc/apply_damages(var/brute = 0, var/burn = 0, var/tox = 0, var/oxy = 0, var/clone = 0, var/halloss = 0, var/def_zone = null, var/blocked = 0)
-	if(blocked >= 2)	return 0
+	if(blocked >= 1)	return 0 //see blocked above
 	if(brute)	apply_damage(brute, BRUTE, def_zone, blocked)
 	if(burn)	apply_damage(burn, BURN, def_zone, blocked)
 	if(tox)		apply_damage(tox, TOX, def_zone, blocked)
@@ -41,7 +41,7 @@
 
 
 /mob/living/proc/apply_effect(var/effect = 0,var/effecttype = STUN, var/blocked = 0)
-	if(!effect || (blocked >= 2))	return 0
+	if(!effect || (blocked >= 1))	return 0 //see blocked above
 	switch(effecttype)
 		if(STUN)
 			Stun(effect/(blocked+1))
@@ -65,7 +65,7 @@
 
 
 /mob/living/proc/apply_effects(var/stun = 0, var/weaken = 0, var/paralyze = 0, var/irradiate = 0, var/stutter = 0, var/eyeblur = 0, var/drowsy = 0, var/agony = 0, var/blocked = 0)
-	if(blocked >= 2)	return 0
+	if(blocked >= 1)	return 0 //see blocked above
 	if(stun)		apply_effect(stun, STUN, blocked)
 	if(weaken)		apply_effect(weaken, WEAKEN, blocked)
 	if(paralyze)	apply_effect(paralyze, PARALYZE, blocked)
