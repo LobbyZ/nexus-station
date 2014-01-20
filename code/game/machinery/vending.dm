@@ -605,15 +605,43 @@
 	prices = list(/obj/item/clothing/suit/greatcoat = 90,/obj/item/clothing/suit/johnny_coat = 100)
 
 /obj/machinery/vending/clothing
-	name = "Clothing-O-Mat"
-	desc = "The latest edition to Nanotrasen's clothing system! Buy your clothes here!"
+	name = "Clothing-O-Boy"
+	desc = "The latest edition to Nanotrasen's clothing system! Buy your manly clothes here!"
 	icon_state = "cart"
 	icon_deny = "cart-deny"
 	vend_delay = 15
 	products = list(/obj/item/clothing/suit/apron/overalls = 15,/obj/item/clothing/suit/unathi/mantle = 15,
-					/obj/item/clothing/suit/hgpirate = 15,)
+					/obj/item/clothing/suit/hgpirate = 15,/obj/item/clothing/under/fluff/ana_issek_1 = 10,
+					/obj/item/clothing/under/fluff/callum_suit = 15,/obj/item/clothing/under/fluff/jumpsuitdown =15,
+					/obj/item/clothing/under/overalls = 15)
 	prices = list(/obj/item/clothing/suit/apron/overalls = 120,
-				  /obj/item/clothing/suit/unathi/mantle = 90,/obj/item/clothing/suit/hgpirate = 70,)
+				  /obj/item/clothing/suit/unathi/mantle = 90,/obj/item/clothing/suit/hgpirate = 70,
+				  /obj/item/clothing/under/fluff/ana_issek_1 = 100,
+				  /obj/item/clothing/under/fluff/callum_suit = 125,/obj/item/clothing/under/fluff/jumpsuitdown = 75,
+				  /obj/item/clothing/under/overalls = 150)
+/obj/machinery/vending/clothing
+	name = "Clothing-O-Girl"
+	desc = "The latest edition to Nanotrasen's clothing system! Buy your girly clothes here!"
+	icon_state = "cart"
+	icon_deny = "cart-deny"
+	vend_delay = 15
+	products = list(/obj/item/clothing/under/schoolgirl = 15,/obj/item/clothing/under/sexyclown = 15,
+					/obj/item/clothing/under/sexymime = 15,/obj/item/clothing/under/wedding/bride_blue = 15,
+					/obj/item/clothing/under/wedding/bride_orange = 15,/obj/item/clothing/under/wedding/bride_purple = 15,
+					/obj/item/clothing/under/wedding/bride_red = 15,/obj/item/clothing/under/wedding/bride_white = 15,
+					/obj/item/clothing/under/sundress = 15,/obj/item/clothing/under/suit_jacket/female = 16,
+					/obj/item/clothing/under/swimsuit/black = 15,/obj/item/clothing/under/swimsuit/blue = 15,
+					/obj/item/clothing/under/swimsuit/green = 15,/obj/item/clothing/under/swimsuit/purple = 15,
+					/obj/item/clothing/under/swimsuit/red = 15)
+	prices = list(/obj/item/clothing/under/schoolgirl = 175,/obj/item/clothing/under/sexyclown = 150,
+					/obj/item/clothing/under/sexymime = 150,/obj/item/clothing/under/wedding/bride_blue = 125,
+					/obj/item/clothing/under/wedding/bride_orange = 125,/obj/item/clothing/under/wedding/bride_purple = 75,
+					/obj/item/clothing/under/wedding/bride_red = 100,/obj/item/clothing/under/wedding/bride_white = 100,
+					/obj/item/clothing/under/sundress = 125,/obj/item/clothing/under/suit_jacket/female = 125,
+					/obj/item/clothing/under/swimsuit/black = 70,/obj/item/clothing/under/swimsuit/blue = 150,
+					/obj/item/clothing/under/swimsuit/green = 100,/obj/item/clothing/under/swimsuit/purple = 175,
+					/obj/item/clothing/under/swimsuit/red = 100)
+
 
 
 /obj/machinery/vending/boozeomat
