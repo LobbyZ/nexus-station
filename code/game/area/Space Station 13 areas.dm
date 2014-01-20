@@ -1455,6 +1455,10 @@ proc/process_ghost_teleport_locs()
 	name = "\improper Derelict Morgue"
 	icon_state = "morgue"
 
+/area/zap_mode
+	name = "FuckingZapDickhugs"
+	icon_state = "yellow"
+
 /area/derelict/medical/chapel
 	name = "\improper Derelict Chapel"
 	icon_state = "chapel"

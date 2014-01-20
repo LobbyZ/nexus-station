@@ -619,10 +619,11 @@
 				  /obj/item/clothing/under/fluff/ana_issek_1 = 100,
 				  /obj/item/clothing/under/fluff/callum_suit = 125,/obj/item/clothing/under/fluff/jumpsuitdown = 75,
 				  /obj/item/clothing/under/overalls = 150)
-/obj/machinery/vending/clothing
+
+/obj/machinery/vending/clothing2
 	name = "Clothing-O-Girl"
 	desc = "The latest edition to Nanotrasen's clothing system! Buy your girly clothes here!"
-	icon_state = "cart"
+	icon_state = "cart2"
 	icon_deny = "cart-deny"
 	vend_delay = 15
 	products = list(/obj/item/clothing/under/schoolgirl = 15,/obj/item/clothing/under/sexyclown = 15,
