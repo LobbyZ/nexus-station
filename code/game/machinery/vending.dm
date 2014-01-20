@@ -595,6 +595,27 @@
 	vend_delay = 0
 */
 
+/obj/machinery/vending/clothing1
+	name = "Coats-O-Mat"
+	desc = "The lates edition to Nanotrasen's clothing system! Buy your coats here!"
+	icon_state = "cart1"
+	icon_deny = "cart-deny"
+	vend_delay = 15
+	products = list(/obj/item/clothing/suit/greatcoat = 15,/obj/item/clothing/suit/johnny_coat = 15)
+	prices = list(/obj/item/clothing/suit/greatcoat = 90,/obj/item/clothing/suit/johnny_coat = 100)
+
+/obj/machinery/vending/clothing
+	name = "Clothing-O-Mat"
+	desc = "The latest edition to Nanotrasen's clothing system! Buy your clothes here!"
+	icon_state = "cart"
+	icon_deny = "cart-deny"
+	vend_delay = 15
+	products = list(/obj/item/clothing/suit/apron/overalls = 15,/obj/item/clothing/suit/unathi/mantle = 15,
+					/obj/item/clothing/suit/hgpirate = 15,)
+	prices = list(/obj/item/clothing/suit/apron/overalls = 120,
+				  /obj/item/clothing/suit/unathi/mantle = 90,/obj/item/clothing/suit/hgpirate = 70,)
+
+
 /obj/machinery/vending/boozeomat
 	name = "Booze-O-Mat"
 	desc = "A technological marvel, supposedly able to mix just the mixture you'd like to drink the moment you ask for one."
