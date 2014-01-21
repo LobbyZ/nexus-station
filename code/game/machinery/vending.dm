@@ -626,7 +626,8 @@
 	icon_state = "cart2"
 	icon_deny = "cart-deny"
 	vend_delay = 15
-	products = list(/obj/item/clothing/under/schoolgirl = 15,/obj/item/clothing/under/sexyclown = 15,
+	products = list(/obj/item/clothing/under/schoolgirl = 15,/obj/item/clothing/under/blackskirt = 15,
+					/obj/item/clothing/under/sexyclown = 15,
 					/obj/item/clothing/under/sexymime = 15,/obj/item/clothing/under/wedding/bride_blue = 15,
 					/obj/item/clothing/under/wedding/bride_orange = 15,/obj/item/clothing/under/wedding/bride_purple = 15,
 					/obj/item/clothing/under/wedding/bride_red = 15,/obj/item/clothing/under/wedding/bride_white = 15,
@@ -635,6 +636,7 @@
 					/obj/item/clothing/under/swimsuit/green = 15,/obj/item/clothing/under/swimsuit/purple = 15,
 					/obj/item/clothing/under/swimsuit/red = 15)
 	prices = list(/obj/item/clothing/under/schoolgirl = 175,/obj/item/clothing/under/sexyclown = 150,
+					/obj/item/clothing/under/blackskirt = 75,
 					/obj/item/clothing/under/sexymime = 150,/obj/item/clothing/under/wedding/bride_blue = 125,
 					/obj/item/clothing/under/wedding/bride_orange = 125,/obj/item/clothing/under/wedding/bride_purple = 75,
 					/obj/item/clothing/under/wedding/bride_red = 100,/obj/item/clothing/under/wedding/bride_white = 100,
@@ -642,6 +644,27 @@
 					/obj/item/clothing/under/swimsuit/black = 70,/obj/item/clothing/under/swimsuit/blue = 150,
 					/obj/item/clothing/under/swimsuit/green = 100,/obj/item/clothing/under/swimsuit/purple = 175,
 					/obj/item/clothing/under/swimsuit/red = 100)
+
+/obj/machinery/vending/clothing3
+	name = "Jumpsuits-O-Mat"
+	desc = "The lates edition to Nanotrasen's clothing system! Buy your jumpsuits here!"
+	icon_state = "cart3"
+	icon_deny = "cart-deny3"
+	vend_delay = 15
+	products = list(/obj/item/clothing/under/acj = 20,/obj/item/clothing/under/aqua = 20,
+					/obj/item/clothing/under/brown = 20,/obj/item/clothing/under/darkblue = 20,
+					/obj/item/clothing/under/darkred = 20,/obj/item/clothing/under/lightblue = 20,
+					/obj/item/clothing/under/lightbrown = 20,/obj/item/clothing/under/lightgreen = 20,
+					/obj/item/clothing/under/lightpurple = 20,/obj/item/clothing/under/lightred = 20,
+					/obj/item/clothing/under/purple = 20, /obj/item/clothing/under/rainbow = 10,
+					/obj/item/clothing/under/sl_suit = 20,/obj/item/clothing/under/yellowgreen = 20)
+	prices = list(/obj/item/clothing/under/acj = 100,/obj/item/clothing/under/aqua = 120,
+					/obj/item/clothing/under/brown = 100,/obj/item/clothing/under/darkblue = 75,
+					/obj/item/clothing/under/darkred = 100,/obj/item/clothing/under/lightblue = 90,
+					/obj/item/clothing/under/lightbrown = 125,/obj/item/clothing/under/lightgreen = 120,
+					/obj/item/clothing/under/lightpurple = 175,/obj/item/clothing/under/lightred = 125,
+					/obj/item/clothing/under/purple = 150, /obj/item/clothing/under/rainbow = 100,
+					/obj/item/clothing/under/sl_suit = 90,/obj/item/clothing/under/yellowgreen = 75)
 
 
 
