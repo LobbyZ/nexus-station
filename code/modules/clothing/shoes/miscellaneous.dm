@@ -133,3 +133,18 @@
 	flags = NOSLIP
 	slowdown = SHOES_SLOWDOWN+1
 	species_restricted = null
+
+//obj/item/clothing/shoes/slippers
+	//name = "Multiple-Species Shoes"
+	//desc = "Designed for mainly species which cannot wear the normal and common shoes supplied from Central Command."
+	//icon_state = ""
+	//item_state = ""
+	//species_restricted = null
+
+/obj/item/clothing/shoes/jackboots
+	name = "digigrade boots"
+	desc = "Nanotrasen-issue Multi-Specie shoes!"
+	icon_state = "jackboots"
+	item_state = "jackboots"
+	item_color = "hosred"
+	species_restricted = null

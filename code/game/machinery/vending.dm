@@ -601,8 +601,8 @@
 	icon_state = "cart1"
 	icon_deny = "cart-deny"
 	vend_delay = 15
-	products = list(/obj/item/clothing/suit/greatcoat = 15,/obj/item/clothing/suit/johnny_coat = 15)
-	prices = list(/obj/item/clothing/suit/greatcoat = 90,/obj/item/clothing/suit/johnny_coat = 100)
+	products = list(/obj/item/clothing/suit/johnny_coat = 15)
+	prices = list(/obj/item/clothing/suit/johnny_coat = 100)
 
 /obj/machinery/vending/clothing
 	name = "Clothing-O-Boy"
@@ -651,14 +651,14 @@
 	icon_state = "cart3"
 	icon_deny = "cart-deny3"
 	vend_delay = 15
-	products = list(/obj/item/clothing/under/acj = 20,/obj/item/clothing/under/aqua = 20,
+	products = list(/obj/item/clothing/under/aqua = 20,
 					/obj/item/clothing/under/brown = 20,/obj/item/clothing/under/darkblue = 20,
 					/obj/item/clothing/under/darkred = 20,/obj/item/clothing/under/lightblue = 20,
 					/obj/item/clothing/under/lightbrown = 20,/obj/item/clothing/under/lightgreen = 20,
 					/obj/item/clothing/under/lightpurple = 20,/obj/item/clothing/under/lightred = 20,
 					/obj/item/clothing/under/purple = 20, /obj/item/clothing/under/rainbow = 10,
 					/obj/item/clothing/under/sl_suit = 20,/obj/item/clothing/under/yellowgreen = 20)
-	prices = list(/obj/item/clothing/under/acj = 100,/obj/item/clothing/under/aqua = 120,
+	prices = list(/obj/item/clothing/under/aqua = 120,
 					/obj/item/clothing/under/brown = 100,/obj/item/clothing/under/darkblue = 75,
 					/obj/item/clothing/under/darkred = 100,/obj/item/clothing/under/lightblue = 90,
 					/obj/item/clothing/under/lightbrown = 125,/obj/item/clothing/under/lightgreen = 120,
@@ -666,6 +666,34 @@
 					/obj/item/clothing/under/purple = 150, /obj/item/clothing/under/rainbow = 100,
 					/obj/item/clothing/under/sl_suit = 90,/obj/item/clothing/under/yellowgreen = 75)
 
+/obj/machinery/vending/clothing4
+	name = "Head-O-Wear"
+	desc = "The lates edition to Nanotrasen's clothing system! Buy your hats here! Supplied from the Mann Co company!"
+	icon_state = "cart4"
+	icon_deny = "cart-deny4"
+	vend_delay = 15
+	products = list(/obj/item/clothing/head/beret = 10,/obj/item/clothing/head/hairflower = 10,
+					/obj/item/clothing/head/fez = 10,/obj/item/clothing/head/fedora = 10,
+					/obj/item/clothing/head/flatcap = 10,/obj/item/clothing/head/soft/blue = 10,
+					/obj/item/clothing/head/soft/green = 10,/obj/item/clothing/head/soft/grey = 10,
+					/obj/item/clothing/head/soft/mime = 10,/obj/item/clothing/head/soft/orange = 10,
+					/obj/item/clothing/head/soft/purple = 10,/obj/item/clothing/head/soft/rainbow = 10,
+					/obj/item/clothing/head/soft/red = 10,/obj/item/clothing/head/soft/yellow = 10,
+					/obj/item/clothing/head/that = 15,/obj/item/clothing/head/ushanka = 10,
+					/obj/item/clothing/head/rabbitears = 20,/obj/item/clothing/head/kitty = 20,
+					/obj/item/clothing/mask/fakemoustache = 15,/obj/item/clothing/mask/redscarf = 10
+					)
+	prices = list(/obj/item/clothing/head/beret = 100,/obj/item/clothing/head/hairflower = 125,
+					/obj/item/clothing/head/fez = 150,/obj/item/clothing/head/fedora = 125,
+					/obj/item/clothing/head/flatcap = 100,/obj/item/clothing/head/soft/blue = 150,
+					/obj/item/clothing/head/soft/green = 100,/obj/item/clothing/head/soft/grey = 175,
+					/obj/item/clothing/head/soft/mime = 75,/obj/item/clothing/head/soft/orange = 125,
+					/obj/item/clothing/head/soft/purple = 100,/obj/item/clothing/head/soft/rainbow = 100,
+					/obj/item/clothing/head/soft/red = 125,/obj/item/clothing/head/soft/yellow = 175,
+					/obj/item/clothing/head/that = 150,/obj/item/clothing/head/ushanka = 200,
+					/obj/item/clothing/head/rabbitears = 125,/obj/item/clothing/head/kitty = 150,
+					/obj/item/clothing/mask/fakemoustache = 125,/obj/item/clothing/mask/redscarf = 100
+					)
 
 
 /obj/machinery/vending/boozeomat
