@@ -141,9 +141,9 @@
 	//item_state = ""
 	//species_restricted = null
 
-/obj/item/clothing/shoes/jackboots
+/obj/item/clothing/shoes/digishoes
 	name = "digigrade boots"
-	desc = "Nanotrasen-issue Multi-Specie shoes!"
+	desc = "Nanotrasen-issue Multi-Specie boots!"
 	icon_state = "jackboots"
 	item_state = "jackboots"
 	item_color = "hosred"

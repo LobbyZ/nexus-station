@@ -1,11 +1,11 @@
 // BEGIN_INTERNALS
 /*
 MAP_ICON_TYPE: 0
-WINDOW: maps\tgstation2Prese2c.dmm;code\game\machinery\vending.dm;code\game\objects\items\stacks\sheets\leather.dm;icons\obj\vending.dmi;code\modules\customitems\item_defines.dm;code\modules\clothing\shoes\colour.dm;code\modules\clothing\masks\miscellaneous.dm;icons\obj\clothing\shoes.dmi;icons\obj\clothing\uniforms.dmi
+WINDOW: code\modules\clothing\shoes\miscellaneous.dm
 LAST_COMPILE_VERSION: 501.1217
-DIR: code code\game code\game\gamemodes code\game\gamemodes\cult code\game\machinery code\game\machinery\bots code\game\objects code\game\objects\items code\game\objects\items\stacks code\game\objects\items\stacks\sheets code\modules code\modules\clothing code\modules\clothing\masks code\modules\clothing\shoes code\modules\customitems icons icons\obj icons\obj\clothing maps 
-FILE: code\game\machinery\vending.dm
-LAST_COMPILE_TIME: 1390496228
+DIR: code code\game\gamemodes\cult code\game\objects\items\stacks\sheets code\modules code\modules\clothing code\modules\clothing\shoes maps 
+FILE: code\modules\clothing\shoes\miscellaneous.dm
+LAST_COMPILE_TIME: 1390496613
 AUTO_FILE_DIR: ON
 */
 // END_INTERNALS
