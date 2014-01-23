@@ -1,11 +1,11 @@
 // BEGIN_INTERNALS
 /*
 MAP_ICON_TYPE: 0
-WINDOW: code\modules\clothing\shoes\miscellaneous.dm
+WINDOW: code\modules\clothing\shoes\miscellaneous.dm;maps\tgstation2Prese2c.dmm
 LAST_COMPILE_VERSION: 501.1217
-DIR: code code\game\gamemodes\cult code\game\objects\items\stacks\sheets code\modules code\modules\clothing code\modules\clothing\shoes maps 
-FILE: code\modules\clothing\shoes\miscellaneous.dm
-LAST_COMPILE_TIME: 1390496613
+DIR: code code\game\gamemodes\cult code\game\objects\items\stacks\sheets code\modules code\modules\clothing code\modules\clothing\masks code\modules\clothing\shoes code\modules\customitems icons icons\obj icons\obj\clothing maps 
+FILE: maps\tgstation2Prese2c.dmm
+LAST_COMPILE_TIME: 1390502315
 AUTO_FILE_DIR: ON
 */
 // END_INTERNALS
